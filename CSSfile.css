@@ -1,0 +1,2675 @@
+/***** Font Imports *****/
+
+@font-face {
+    font-family: 'NFLEndzoneSansCondMedium';
+    src: url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-sans/medium-cond.eot');
+}
+@font-face {
+    font-family: 'NFLEndzoneSansCondMedium';
+    src: url('//:') format('no404'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-sans/medium-cond.eot?#iefix') format('eot'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-sans/medium-cond.woff') format('woff'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-sans/medium-cond.ttf') format('truetype'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-sans/medium-cond.svg#webfont9DqcIwJf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NFLEndzoneSlabBold';
+    src: url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-slab/bold.eot');
+}
+@font-face {
+    font-family: 'NFLEndzoneSlabBold';
+    src: url('//:') format('no404'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-slab/bold.eot?iefix') format('eot'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-slab/bold.woff') format('woff'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-slab/bold.ttf') format('truetype'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-slab/bold.svg#EndzoneSlab-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NFLEndzoneTechBold';
+    src: url('//:') format('no404'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-tech/bold.eot') format('eot'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-tech/bold.woff') format('woff'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-tech/bold.ttf') format('truetype'), 
+    url('http://i.nflcdn.com/static/site/6.2/img/fonts/endzone-tech/bold.svg#EndzoneTech-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/***** Daddyleagues Layout *****/
+
+#PageContent {
+    border: 2px solid #a1a1a1;
+    padding: 10px 10px;
+    background: #dddddd;
+    height: auto;
+    box-shadow: 0px 4px 10px 10px #000000;
+    border-radius: 5px;
+    -moz-border-radius: 25px;
+    /* Firefox 3.6 and earlier */
+}
+#hmPageWrapper {
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    background: #ffffff;
+    height: auto;
+}
+.home-column {
+    float: left;
+    margin-right: 0px;
+}
+.home-left-column {
+    width: 212px;
+    padding: 0px 0px 0px 0px;
+}
+.home-middle-column {
+    width: 474px;
+    padding: 0px 0px 0px 0px;
+    margin-left: 6px;
+}
+.home-right-column {
+    width: 212px;
+    padding: 0px 0px 0px 0px;
+    margin-left: 6px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+.hmPortletDecoration {
+    border: 1px #606060 solid;
+    padding: 0px 0px;
+    background: #000000 url('http://www.lucysairbrush.net/red_fade_op_800x150.jpg');
+    height: 40px;
+    line-height: 40px;
+    padding-left: 0px;
+    color: white;
+    font-weight: bold;
+}
+.hmPortletContent {
+    border: 2px #242323 solid;
+    margin-bottom: 20px;
+    color: #00000;
+    font-family: Tahoma, Verdana, Arial, Sans-Serif;
+    font-size: 11px;
+    line-height: 1.4em;
+    font-weight: bold;
+    background-color: #ffffff;
+    font-weight: bold;
+    border-radius: 0px 0px 7px 7px;
+    -moz-border-radius: 0px 0px 7px 7px;
+    -webkit-border-radius: 0px 0px 7px 7px;
+}
+.hmPortletContent2 {
+    border: 2px #242323 solid;
+    height: 140px;
+    margin-bottom: 0px;
+    color: #00000;
+    font-family: Tahoma, Verdana, Arial, Sans-Serif;
+    font-size: 11px;
+    line-height: 1.4em;
+    font-weight: bold;
+    background-color: #ffffff;
+    font-weight: bold;
+    border-radius: 0px 0px 7px 7px;
+    -moz-border-radius: 0px 0px 7px 7px;
+    -webkit-border-radius: 0px 0px 7px 7px;
+}
+.hmPortletContent3 {
+    border: 2px #242323 solid;
+    height: 340px;
+    margin-bottom: 20px;
+    color: #00000;
+    font-family: Tahoma, Verdana, Arial, Sans-Serif;
+    font-size: 11px;
+    line-height: 1.4em;
+    font-weight: bold;
+    background-color: #ffffff;
+    font-weight: bold;
+    border-radius: 0px 0px 7px 7px;
+    -moz-border-radius: 0px 0px 7px 7px;
+    -webkit-border-radius: 0px 0px 7px 7px;
+}
+.visitor {
+    margin-left: 55px;
+}
+.hmPortletContentPadding {
+    padding: 5px;
+}
+/***** Daddy GOW*****/
+.gameoftheweek {
+	width:100%;
+	line-height:30px;
+	border-bottom: 2px solid #273038;
+	background: #000000 url('');
+
+}
+
+.gameoftheweek .cfm-table tr td.cfm-at {    width: 20%;
+    background-image: url('http://www.easports.com/madden-nfl/connected-franchise/bundles/maddenccm/images/game-details-at.png');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    position: absolute;
+    top: 450px;
+    right: 192px;
+}
+
+.cfm-table {
+	color:#FFF;
+}
+
+/* Daddy League Overrides */
+
+.adsense:first-of-type {
+    display: none;
+}
+#daddyleagues-navbar {
+    margin-bottom: 20px;
+}
+.maincontent {
+    background: #FFF;
+    margin-top: 2px;
+}
+.headerWrapper {
+    width: 960px;
+}
+.container {
+    width: 960px;
+    background: #fff;
+}
+.content {
+    background: #fff;
+}
+html {
+    background: #011226;
+}
+body {
+    background: #000000 no-repeat top center;
+    padding-top: 35px;}
+
+.yui3-scorestrip-tile {
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font: 700 8px/8px Open Sans, Tahoma, Verdana, Arial, Sans-Serif;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+    margin-right: 0.5px;
+    margin-left: 0.5px;	
+}
+
+
+.scorelist {background-image: url(http://s.nflcdn.com/static/site/7.4/img/header-2012/secondary-nav-bg.png); width: 100%; margin: 0;clear: both; display:table;padding: 0} 
+.scorelist .yui3-scorestrip-tile {font-family: NFLEndzoneTechBold, sans-serif;}
+
+.yui3-scorestrip-tile-visitor-wins .yui3-scorestrip-tile-visitor, .yui3-scorestrip-tile-home-wins .yui3-scorestrip-tile-home { color:#ff0000;}
+
+ 
+.yui3-scorestrip-tile-index-0 {width:58.5px;height:30px;}
+.yui3-scorestrip-tile-abbr {    font-size:10px; top:3px; color: #ffffff;}
+.yui3-scorestrip-tile-score {    font-size:12px; padding-top: 2px; text-align: right; right: 0px;}
+.yui3-scorestrip-tile-visitor {    top:1px; }
+.yui3-scorestrip-tile-home {    top:15px; }
+
+
+a.yui3-scorestrip-tile-content {
+    background: none repeat scroll 0 0 rgba(240, 240, 240, 0);
+    color: #000;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    text-decoration: none;
+    top: 0px;
+    width: 100%;
+padding-right: 20px;
+}
+
+.twitchList #twitchList { margin:0; padding:0;}
+.twitchList #twitchList li { display:none; padding:4px 8px; border-right:1px solid #000;}
+.twitchList #twitchList li:last-of-type { border-right:0px;}
+.twitchList #twitchList li  i{ font-style: normal;}
+.twitchList #twitchList li  a{ color:#fff;}
+.twitchList #twitchList li.online { display:block; float:left; height:40px; color: #FFF;}
+.twitchList #twitchList li.online img{ height:32px; margin-right:4px;}
+
+.twitchList .twitchHeader {font-family: NFLEndzoneSansCondMedium, sans-serif; background:url('http://gridironracers.com/static/images/wgRed.jpg'); display:block; float:left; padding:4px 8px; font-size:24px; line-height:32px; color:#fff;}
+.twitchList .twitchBody {
+height:40px;
+color:#fff;
+font-family: NFLEndzoneSansCondMedium, sans-serif;
+font-weight:normal;
+font-size:15px;
+padding-left:85px;
+line-height:32px;
+  background-image: -moz-linear-gradient( 90deg, rgb(51,51,51) 0%, rgb(17,17,17) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(51,51,51) 0%, rgb(17,17,17) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(51,51,51) 0%, rgb(17,17,17) 100%);
+}
+
+	#daddyleagues-menu {}
+
+    #daddyleagues-menu .navbar { 
+        background-image: url("http://toploader.net/madden/daddyleague/images/nabbg.png"); 
+        background-repeat: repeat-x; 
+        text-align: center; 
+        border-radius: 0px;}
+
+    #daddyleagues-menu ul.nav{ 
+        margin: 0 auto; 
+        width: 100%; 
+        display:flex; 
+        justify-content: center; 
+        font-size: 0; 
+    } 
+    
+    #daddyleagues-menu div.navbar { 
+        border-style: none; 
+        border:none!important; 
+    }
+
+    #daddyleagues-menu ul li{
+
+        display: inline; 
+        border-left: 1px solid #A1A1A1; 
+    } 
+    
+    
+	#daddyleagues-menu .navbar ul li a{
+		vertical-align: middle !important;
+		font-family: 'NFLEndzoneSansCondMedium' !important;
+		font-size: 17px !important;
+text-transform: uppercase;
+		}
+        #daddyleagues-menu .navbar .caret { margin-left:4px;} 
+        
+    
+    #daddyleagues-menu .navbar .nav > li > a, #daddyleagues-menu .navbar .nav > li > a:visited { 
+        color: #222!important; 
+        text-shadow: 1px 1px 0px rgba( 255, 255, 255,.5 )!important; 
+        padding: 14px 10px; 
+        display: block; 
+        font-weight: normal; 
+    } 
+#daddyleagues-menu .navbar .nav > li > a .caret, 
+#daddyleagues-menu .navbar .nav > li > a:visited .caret {border-top-color: #222 !important; border-bottom-color: #222 !important;} 
+    
+    #daddyleagues-menu .nav-pills>li+li { 
+        margin-left: 0px; 
+    } 
+        
+    	#daddyleagues-menu .navbar .nav > li > a:hover {
+		background-image: url("http://toploader.net/madden/daddyleague/images/nabbgover.png") !important;
+		background-repeat: repeat-x !important;
+		color: #ffffff !important;
+		text-shadow: 2px 2px #000000 !important;
+		border-bottom: none;
+	}
+    
+    #daddyleagues-menu .navbar .nav > li.active > a, #daddyleagues-menu .navbar .nav > li.active > a:hover { 
+        background-image: url("http://toploader.net/madden/daddyleague/images/nabbgover.png")!important; 
+        background-repeat: repeat-x!important; 
+        color: #ffffff!important; 
+        text-shadow: 1px 1px 0px rgba( 0, 0, 0,.5 )!important; 
+    } 
+    #daddyleagues-menu .navbar .nav > li.active > a .caret {border-top-color: #fff !important; border-bottom-color: #fff !important;} 
+    
+    #daddyleagues-menu .dropdown-menu li { border:0px!important;} 
+    
+    #player-profile { position:relative;} 
+    #player-team-overlay-container { margin:0;}
+
+/* Bootstrap Overrides */
+
+.panel-footer {
+	color: #fff;
+	text-shadow: 1px 1px 0px #222;
+	background: url("http://toploader.net/madden/daddyleague/images/wgBlue.jpg");
+	border-radius: 0;
+	font-family: NFLEndzoneTechBold, sans-serif;
+	text-align: center;
+	font-size: small;
+}
+
+.cfm-player-wrapper .panel-heading {
+    padding-left: 130px;
+}
+.panel-gir .panel-heading,
+.panel-afc .panel-heading,
+.panel-nfc .panel-heading {
+    text-transform: uppercase;
+    padding: 10px;
+}
+.panel-gir .panel-body,
+.panel-afc .panel-body,
+.panel-nfc .panel-body {
+    padding: 10px;
+    background: url("http://toploader.net/madden/daddyleague/images/wgWhite.jpg");
+}
+.panel-gir .panel-footer,
+.panel-afc .panel-footer,
+.panel-nfc .panel-footer {
+    font-size: 10px;
+    padding: 4px 10px;
+}
+.panel-gir .panel-heading a,
+.panel-afc .panel-heading a,
+.panel-nfc .panel-heading a,
+.panel-gir .panel-footer a,
+.panel-afc .panel-footer a,
+.panel-nfc .panel-footer a {
+    color: #fff;
+}
+.panel-gir .panel-heading a:hover,
+.panel-afc .panel-heading a:hover,
+.panel-nfc .panel-heading a:hover,
+.panel-gir .panel-footer a:hover,
+.panel-afc .panel-footer a:hover,
+.panel-nfc .panel-footer a {
+    color: #eee;
+}
+.standings .panel-body {
+    padding: 0;
+}
+.nopad .panel-body {
+    padding: 0;
+}
+.panel-gir {
+    border-radius: 0px;
+    border-color: #222;
+}
+.panel-gir > .panel-heading,
+.panel-gir > .panel-footer {
+    color: #fff;
+    text-shadow: 1px 1px 0px #222;
+    background: url("http://toploader.net/madden/daddyleague/images/wgBlack.jpg");
+    border-color: #222;
+    border-radius: 0;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    text-align: center;
+}
+.panel-gir > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #bfbfbf;
+	
+}
+.panel-gir > .panel-heading .badge {
+    color: #fff;
+    background-color: #222;
+}
+.panel-afc {
+    border-radius: 0px;
+    border-color: #89171a;
+}
+.panel-afc > .panel-heading,
+.panel-afc > .panel-footer {
+    color: #fff;
+    text-shadow: 1px 1px 0px #89171a;
+    background: url("http://toploader.net/madden/daddyleague/images/wgRed.jpg");
+    border-color: #89171a;
+    border-radius: 0;
+    font-family: NFLEndzoneTechBold, sans-serif;
+}
+.panel-afc > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #89171a;
+}
+.panel-afc > .panel-heading .badge {
+    color: #89171a;
+    background-color: #fff;
+}
+.panel-nfc {
+    border-radius: 0px;
+    border-color: #103a71;
+}
+.panel-nfc > .panel-heading,
+.panel-nfc > .panel-footer {
+    color: #fff;
+    text-shadow: 1px 1px 0px #103a71;
+    background: url("http://toploader.net/madden/daddyleague/images/wgBlue.jpg");
+    border-color: #103a71;
+    border-radius: 0;
+    font-family: NFLEndzoneTechBold, sans-serif;
+}
+.panel-nfc > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #103a71;
+}
+.panel-nfc > .panel-heading .badge {
+    color: #103a71;
+    background-color: #fff;
+}
+.data-table1 .thd1 {  
+    font-weight: bold;
+    padding: 6px 3px;
+    text-align: left;
+    background-color: #030303;
+}
+/* Standings */
+
+.standings .data-table1 td,
+.standings .data-table1 th {
+    font-size: 10px;
+    line-height: 2px;
+    padding: 0 4px;
+}
+.standings #afc-east-container,
+.standings #afc-north-container,
+.standings #afc-south-container,
+.standings #afc-west-container,
+.standings #nfc-east-container,
+.standings #nfc-north-container,
+.standings #nfc-south-container,
+.standings #nfc-west-container {
+    width: 25%;
+    float: left;
+    border-right: 1px solid;
+}
+.standings #afc-west-container,
+.standings #nfc-west-container {
+    border-right: 0px solid;
+}
+.panel-afc .data-table1 .thd1 td {
+    background: #89171a;
+}
+.standings #afc-east-container,
+.standings #afc-north-container,
+.standings #afc-south-container,
+.standings #afc-west-container {
+    border-color: #89171a;
+}
+.panel-nfc .data-table1 .thd1 td {
+    background: #103a71;
+}
+.standings #nfc-east-container,
+.standings #nfc-north-container,
+.standings #nfc-south-container,
+.standings #nfc-west-container {
+    border-color: #103a71;
+}
+.standings img {
+    height: 12px;
+    width: 12px;
+    margin-right: 2px;
+}
+.teamLogo {
+    margin-right: 2px;
+}
+/* transactions */
+
+.transactions .data-table1 td,
+.transactions .data-table1 th {
+    font-size: 11px;
+    line-height: 12px;
+    padding: 2px 4px;
+}
+.transactions img {
+    height: 12px;
+    width: 12px;
+    margin-right: 2px;
+}
+/* Countdown */
+
+.countdownHolder {
+    width: 200px;
+    height: auto;
+}
+.countdownHolder .countText {
+    color: #222;
+    font-family: NFLEndzoneSansCondMedium, sans-serif;
+}
+/* Powerrankings */
+
+#powerrankings div {
+    display: none;
+}
+/* Playoffs */
+
+.playoffs .data-table1 td,
+.standings .data-table1 th {
+    padding: 0 4px;
+}
+.panel-afc.playoffs td.bubble {
+    background: #89171a!important;
+    color: #fff!important;
+    border: none!important;
+}
+.panel-nfc.playoffs td.bubble {
+    background: #103a71!important;
+    color: #fff!important;
+    border: none!important;
+}
+/* POTW */
+
+.playeroftheweek {    position: relative;;
+    left: -12px;
+    width: 213px;
+    border-radius: 14px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(), url(), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.panel-player {
+    width: 50%;
+    display: block;
+    float: left;
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+.panel-player a {
+    color: inherit;
+}
+.panel-player .panel-heading {
+    color: #222;
+    text-shadow: 1px 1px 0px #ccc;
+    background: none;
+    border-radius: 0;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    padding: 5px 10px 0px 10px;
+    text-align: center;
+}
+.panel-player .panel-body {
+    margin: 5px;
+    padding: 5px;
+    background: none;
+	margin-top: 20px;
+    padding-top: 20px;
+}
+    
+.panel-player .avatar {
+    width: 213px;
+    height: 213px;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+.panel-player .avatar img {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    z-index: 6;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+.pow-team-logo{ 
+width:90%; 
+margin-top: -195px; 
+margin-right: 0px; 
+margin-bottom: 0px; 
+margin-left: 15px; 
+float: left; 
+opacity: 1; 
+}
+.panel-player .playeroftheweek-name {      font-family: NFLEndzoneTechBold, sans-serif;
+    text-transform: uppercase;
+	width: 213px;
+	height: 5px;
+    color: #000;
+    font-size: 11px;
+    top: 30px;
+    z-index: 6;
+    text-align: center;
+	text-shadow: 1px 1px #fff !important;
+}
+.panel-player .text .stat-value {
+    font-family: NFLEndzoneSansCondMedium, sans-serif;
+    font-size: 12;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    color: #FF0000;
+    right: 0px;
+    text-align: center;
+}
+.panel-gir.potw>.panel-body {
+    position: relative;
+    background: #fcfcfc;
+    background: url(data:image/svg+xml);
+    background: -moz-linear-gradient(top, #fcfcfc 0%, #f8f8f8 25%, #f3f3f3 44%, #f8f8f8 65%, #e8e8e8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(25%, #f8f8f8), color-stop(44%, #f3f3f3), color-stop(65%, #f8f8f8), color-stop(100%, #e8e8e8));
+    background: -webkit-linear-gradient(top, #fcfcfc 0%, #f8f8f8 25%, #f3f3f3 44%, #f8f8f8 65%, #e8e8e8 100%);
+    background: -o-linear-gradient(top, #fcfcfc 0%, #f8f8f8 25%, #f3f3f3 44%, #f8f8f8 65%, #e8e8e8 100%);
+    background: -ms-linear-gradient(top, #fcfcfc 0%, #f8f8f8 25%, #f3f3f3 44%, #f8f8f8 65%, #e8e8e8 100%);
+    background: linear-gradient(to bottom, #fcfcfc 0%, #f8f8f8 25%, #f3f3f3 44%, #f8f8f8 65%, #e8e8e8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#e8e8e8', GradientType=0);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #e4e4e4;
+}
+.panel-nfc.stats .hm-table-caption td {
+    background: #103a71!important;
+}
+/* Table Overrides */
+
+.data-table1 tbody tr:nth-child(odd) td {
+    background: #fff;
+}
+.data-table1 tbody tr:nth-child(even) td {
+    background: #eee;
+}
+.data-table1 tbody tr:hover td {
+    background: #ccc;
+}
+.panel-body .data-table1 tbody tr:nth-child(odd) td {
+    background: rgba(255, 255, 255, .5);
+}
+.panel-body .data-table1 tbody tr:nth-child(even) td {
+    background: rgba(255, 255, 255, .5);
+}
+.panel-body .data-table1 tbody tr:hover td {
+    background: rgba(200, 200, 200, .5);
+}
+.data-table1 tbody tr.thd2 td,
+.data-table1 tbody tr.thd2 td:hover {
+    background: #ccc!important;
+    color: #222!important;
+}
+.injuryBox {
+    font-weight: normal;
+}
+/***welcome Box***/
+
+.plate2 { 
+	width: 448px;
+    margin: 0% auto;
+    POSITION: relative;
+    TOP: 0PX;
+    LEFT: 0%;
+    background-size: 100%;
+    Z-INDEX: 1;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(), -webkit-linear-gradient(top, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url();
+    height: 306px;
+}
+.shadow2 {    color: white;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #2B4069;
+    line-height: 40px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#E6E6E8), to(#D5D5D5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 11px;
+}
+.script2 {    color: #fff;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    TEXT-TRANSFORM: UPPERCASE;
+    position: relative;
+    margin: 0;
+    top: 5px;
+    padding: 0px;
+text-shadow: 1px 1px #000 !important;
+}
+.script2:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 448px;
+  border-bottom: 3px solid #ff0000;
+    outline: none;
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000
+}
+}
+.text12 {
+  font-size: 60px;
+}
+.text22 {
+  font-size: 50px;
+}
+.text32 {
+  font-size: 40px;
+}
+span.leaguetitle12 {
+    font-size: 50px;
+    font-style: italic;
+    width: 51%;
+    position: ABSOLUTE;
+    z-index: 20;
+    top: 9px;
+    text-align: right;
+    right: 106px;
+    font-weight: bolder;
+    letter-spacing: -.05em;
+    COLOR: #401D82;
+}
+
+/*COUNTDOWN*/
+
+.countdownHolder {     
+	width: 206px;
+    top: 76%;
+    left: 29%;
+    z-index: 2;
+    height: 69px;
+    background-color: transparent;
+    margin: 0px auto;
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font: inherit;
+    padding-top: 10px;
+    padding-left: 2px;
+    position: absolute;
+    text-shadow: 1px 1px #fff !important;
+}
+.digit.static {
+    box-shadow: 1px 1px 1px rgba(4, 4, 4, 0.35);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.5, #ACACAC), color-stop(0.5, #C1C1C1) );
+}
+
+/*welcome box details*/
+
+span.league.commish {
+    text-transform: uppercase;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    position: absolute;
+    text-align: center;
+    width: 448px;
+    top: 49%;
+    color: #ff0000;
+text-shadow: 1px 1px #000 !important;
+}
+span.league.commish2 {
+    text-transform: uppercase;
+    font-family: NFLEndzoneTech, sans-serif;
+    position: absolute;
+    text-align: center;
+    width: 448px;
+    top: 59%;
+    color: #fff;
+text-shadow: 1px 1px #000 !important;
+}
+span.league.advance {
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    width: 448px;
+    color: #fff;
+text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+}
+span.next {
+  text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 73%;
+    z-index: 4;
+    width: 448px;
+    color: #ff0000;
+	font-weight: bold;
+text-shadow: 1px 1px #000 !important;
+}
+/*tabs*/
+
+.tabs-menu {    height: 30px;
+	width: 448px;
+    float: left;
+    clear: both;
+    position: left;
+	background-image: url("http://toploader.net/madden/daddyleague/images/nabbg.png") !important
+}
+
+.tabs-menu li {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right: 0px;
+	position: center;
+	border-left: 1px solid #A1A1A1;
+    padding-left: 2px;
+    padding-right: 2px;
+    left: -20px;
+}
+
+.tabs-menu li.current {
+    position: relative;
+	background-image: url("http://toploader.net/madden/daddyleague/images/nabbgover.png") !important
+}
+
+.tabs-menu li a {    padding: 2px;
+    text-transform: uppercase;
+    color: #000 !important;
+	text-shadow: 2px 2px #fff !important;
+    FONT-SIZE: 16PX;
+    text-decoration: none;
+	font-family: NFLEndzoneSansCondMedium, sans-serif;
+
+}
+
+.tabs-menu .current a {
+    text-transform: uppercase;
+    color: #fff !important;
+	text-shadow: 2px 2px #000 !important;
+    FONT-SIZE: 16PX;
+    text-decoration: none;
+	font-family: NFLEndzoneSansCondMedium, sans-serif;
+}
+
+.tab {
+    border: 0px solid #000;
+	color: #fff;
+    float: left;
+    margin-bottom: 20px;
+    width: 448px; height:950px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.tab-content {
+  width:448px;
+	height: 750px;
+}
+
+#tab-1 {
+ display: block;   
+}
+
+.inner-tab::-webkit-scrollbar {
+ display: none;]
+ }
+
+/*****ticker*****/
+#ticker li > a{ color:red; font-style: italic}
+
+#ticker {   
+    height: 34px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: inset -3px 0px 20px rgb(43, 64, 105);
+    top: -3px;
+    z-index: 3;
+    background-image: url("/img/nfl/player-profile-bg-small.png");
+    left: 0px;
+    width: 941px;
+    border-top: 2px solid rgb(248, 4, 4);
+    border-bottom: 2px solid rgb(153, 3, 3);
+    border-right: 2px solid rgb(153, 9, 9);
+}
+
+spanT {    float: left;
+    left: -40px;
+    color: white;
+    padding: 5px;
+    top: 0px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 15px;
+    background: -webkit-linear-gradient(top, rgba(255, 0, 0, 1) 0%,rgba(72, 0, 0, 1) 100%);
+}
+#ticker li {      height: 50px;
+    font-size: 13px;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+    top: -8px;
+    left: -37px;
+    padding: 2px;
+}
+
+li {
+    color: #2B4069;
+    position: relative;
+    padding-left: 0px;
+}
+
+ul, ol {
+margin-top: 0;
+margin-bottom: 0px;
+}
+
+ 
+@-webkit-keyframes ticker {
+	0%   {margin-top: 0;}
+	25%  {margin-top: -26px;}
+	50%  {margin-top: -52px;}
+	75%  {margin-top: -78px;}
+	100% {margin-top: -100px;}
+}
+@-moz-keyframes ticker {
+	0%   {margin-top: 0;}
+	25%  {margin-top: -26px;}
+	50%  {margin-top: -52px;}
+	75%  {margin-top: -78px;}
+	100% {margin-top: -100px;}
+}
+@-ms-keyframes ticker {
+	0%   {margin-top: 0;}
+	25%  {margin-top: -26px;}
+	50%  {margin-top: -52px;}
+	75%  {margin-top: -78px;}
+	100% {margin-top: -100px;}
+}
+@keyframes ticker {
+	0%   {margin-top: 0;}
+	25%  {margin-top: -26px;}
+	50%  {margin-top: -52px;}
+	75%  {margin-top: -78px;}
+	100% {margin-top: -100px;}
+}
+section#five {
+    height: 734px;
+}
+#tweets ul li:not(:first-child), #storyline ul li:not(:first-child) {
+    border-top: 1px solid #DFDFE0;
+    padding: 15px;
+}
+div#hp-recentarticles {    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+span.description {
+    font-size: 11px;
+    position: relative;
+    top: 17px;
+    left: 9px;
+}
+.button2  {    display: block;
+    top: 13px;
+    color: white;
+    right: -8px;
+    position: relative;
+    width: 98px;
+    height: 22px;
+    background: #ff0000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: #555454 0 -2px 0 inset;
+    -webkit-transition: all .15s;
+    transition: all 1.05s;
+    Z-INDEX: 3;
+}
+
+.button2:hover {box-shadow: rgba(180, 179, 179, 0.72) 0 6px 0 inset;
+    line-height: 26px;
+    background-color: #F8F7F7;
+}
+
+.slides {         padding: 0;
+    width: 309px;
+    top: -357px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 312px;
+}
+.slide-container {
+    display: block;
+}
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 309px;
+    height: 420px;
+    display: block;
+    position: absolute;
+    transform: scale(0);
+    transition: all .7s ease-in-out;
+}
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.nav label {
+    width: 50px;
+    height: 35%;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+    transition: opacity .8s;
+    color: #FFF;
+    font-size: 27pt;
+    text-align: center;
+    line-height: 160px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 28px rgb(0, 0, 0);
+}
+.nav .next {
+    right: 0;
+}
+.nav label {
+    width: 50px;
+    height: 35%;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+    transition: opacity .8s;
+    color: #FFF;
+    font-size: 27pt;
+    text-align: center;
+    line-height: 160px;
+    font-family: "NFLEndzoneTechBold;
+    background-color: rgba(255, 255, 255, .3);
+	font-family: NFLEndzoneTechBold;
+}
+#tweets, #storyline {
+    color: rgb(43, 64, 105);
+    font-size: 12px;
+    background-color: rgba(39, 48, 56, 0);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 590px;    font-family: NFLEndzoneTech, sans-serif;
+}
+#tweets .header .name, #storyline .header .name {
+    color: #EC0D0D;
+    font-weight: bold;
+    margin-right: 8px;
+	font-family: NFLEndzoneTechBold;
+    font-size: 14pt;
+}
+span.cover {     background-color: rgba(197, 35, 35, 0);
+    position: ABSOLUTE;
+    z-index: 5;
+    width: 448px;
+    height: 209px;
+    top: 2050PX;
+    box-shadow: inset 0px -114px 100px WHITE;
+}
+
+.cardWrapper{
+  width:400px;
+  height:60px;
+  position:relative;
+  /*background-color:#333;*/
+  float:left;
+  cursor:pointer;
+  -webkit-font-smoothing:antialiased;
+}
+
+.cardFace{
+  position:absolute;
+  width:100%;
+  overflow:hidden;
+}
+
+.cardFace h1{
+  margin:0px;
+  font-size:30px;
+  border-bottom:solid 6px #aaa;
+  border-top:solid 6px #aaa;
+  background-color : transparent;
+  color:white;
+  vertical-align: middle;
+}    
+
+
+.cardFace.back h1{
+ border-color:#91e600;
+}
+
+.moreInfo{
+  padding:10px;
+  color:white;
+  line-height:24px;
+  
+}
+
+/*****superbowl history*****/
+.superbowlhistory p {       color: #2B4069;
+    font-size: 16px;
+    font-family: NFLEndzoneSansCondMedium,sans-serif;
+    margin: 11px 0px 10px;
+    position: relative;
+    line-height: 21px;
+}
+.superbowlhistory {      padding: 3px 5px 3px 20px;
+    position: relative;
+    font-family: NFLEndzoneSansCondMedium;
+    BACKGROUND-COLOR: transparent;
+    background-size: 135%;
+    height: 253px;
+}
+.superbowlhistory2 img {
+    left: 0;
+    width: 25%;
+    float: right;
+    position: relative;
+    padding: 2px;
+    top: 0;
+}
+.superbowlhistory2 {
+    padding: 3px 5px 3px 20px;
+    position: relative;
+    font-family: NFLEndzoneSansCondMedium;
+    background-size: 135%;
+    width: 107%; margin-top: 16px;
+}
+sb1 {    position: absolute;
+    TEXT-TRANSFORM: UPPERCASE;
+    color: #E24040;
+    font-family: NFLEndzoneSlabBold;
+    top: 3%;
+    font-size: 12px;
+    text-decoration: underline;
+}
+sb2 {
+        position: relative;
+    color: #1276C6;
+    line-height: 13px;
+    font-size: 15px;
+    margin-top: 27px;
+}
+sb3 {
+    position: absolute;
+    color: #0068FF;
+    top: 50%;
+    left: 35px;
+    width: 84%;
+}
+	.superbowlhistory img {
+		left: 0; width: 50%; float:right;
+		position: relative; padding: 2px;
+		top: 0; 
+	}
+span.TITLES {
+    FONT-SIZE: 17PX;
+    letter-spacing: .2em;
+    COLOR: #807F7F;
+    TEXT-DECORATION: UNDERLINE;
+}
+span.SBYEAR {         font-size: 12px;
+    font-family: NFLEndzoneSansCondMedium;
+    background: rgba(192, 192, 192, 0.45);
+    color: #2B4069;
+    letter-spacing: .2em;
+    text-shadow: 2px 2px 15px #84D1FF;
+    text-transform: uppercase;
+    position: absolute;
+    left: -39px;
+    top: 86px;    
+    line-height: 18px;
+    width: 145px;
+    text-align: center;
+	margin-right: 5px;
+	border-bottom: 3px solid #ff0000;
+}
+span.sblogos-right {    position: absolute;
+    left: 36%;
+    width: 65%;
+    top: 0px;
+    display: block;
+}
+span.sblogos-left {    position: absolute;
+    left: -37%;
+    width: 65%;
+    top: 0px;
+    display: block;
+}
+span.teamtop {
+    position: absolute;
+    font-size: 9px;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    text-align: left;
+    top: 61px;
+    padding-left: 2px;
+    left: -40px;
+}
+span.sbscorestop {     
+	font-size: 11px;
+    LEFT: -43PX;
+    width: 169px;
+    TOP: 67PX;
+    text-shadow: 0px 1px #380404;
+    POSITION: ABSOLUTE;
+    text-transform: uppercase;
+    color: #D4000A;
+    padding: 5PX;
+}
+span.teambottom {      position: absolute;
+    font-size: 9px;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: right;
+    top: 61px;
+    right: -2px;
+    padding-right: 2px;
+}
+span.sbscoresbottom {
+    font-size: 11px;
+    right: -7px;
+    TOP: 67px;
+    text-shadow: 0px 1px #13316B;
+    POSITION: absolute;
+    text-transform: uppercase;
+    color: rgb(66, 130, 255);
+    padding: 5PX;
+    width: 169px;
+    text-align: right;
+}
+span.recap {    font-size: 9px;
+    POSITION: ABSOLUTE;
+    text-transform: uppercase;
+    text-shadow: 0px 0.5px #13316B;
+    background-color: rgba(255, 255, 255, 0.72);
+    right: 0PX;
+    width: 46px;
+    border-radius: 15px;
+    TOP: 105PX;
+    text-align: center;
+}
+}
+.Noteables {
+    overflow-y: scroll;
+    height: 251px;
+    top: 30px;
+    position: relative;
+}
+span.big-leagueheaderyear2 {    font-size: 14px;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    text-align: left;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://www.successfuelformanagers.com/wp-content/uploads/2009/02/Referee.png), -webkit-linear-gradient(top, rgb(22, 33, 53), rgb(43, 64, 105)), url();
+    background-color: transparent;
+    background-size: auto, 106%, auto, 100%;
+    background-position: 0% 0%, 270% 773px, 0% 0%, 0% -420px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+    position: absolute;
+    color: #E4E4E4;
+    width: 706px;
+    HEIGHT: 1009PX;
+    text-transform: uppercase;
+    left: 11px;
+    top: 8px;
+    letter-spacing: .2em;
+    padding: 1px;
+}
+.outer {    width: 705px;
+    margin: 156px auto;
+    position: relative;
+    top: -66px;
+    left: 1px;
+    height: 189px;
+    overflow: hidden;
+    background-size: 100%;
+    background-image: url(http://i1178.photobucket.com/albums/x364/garza21lions/field_zpsiuqtzfke.png);
+    background-position: 102%;
+}
+
+.inner {    display: inline-block;
+    position: relative;
+    right: -2%;
+    top: 0%;
+    width: 100%;
+}
+div#news-stream-container {    position: RELATIVE;
+    width: 422px;
+    top: -43%;
+    right: -45%;
+    overflow-y: scroll;
+    height: 294px;
+    border-bottom: 1px solid gray;
+}
+.button2  {     display: block;
+    top: -424px;
+    color: white;
+    right: -599px;
+    position: relative;
+    width: 98px;
+    height: 22px;
+    background: #ff0000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: #555454 0 -2px 0 inset;
+    -webkit-transition: all .15s;
+    transition: all 1.05s;
+    Z-INDEX: 3;
+}
+
+.button1 {
+    display: block;
+    top: -567px;
+    color: white;
+    right: -539px;
+    position: relative;
+    width: 153px;
+    height: 22px;
+    background: #ff0000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: #555454 0 -2px 0 inset;
+    -webkit-transition: all .15s;
+    transition: all 1.05s;
+    Z-INDEX: 3;
+}
+.button2:hover {box-shadow: rgba(180, 179, 179, 0.72) 0 6px 0 inset;
+    line-height: 26px;
+    background-color: #F8F7F7;
+}
+
+a:hover {
+    color: #ff0000;    
+}
+/***team backgrounds for pow***/
+.avatar.ari{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/ari.png), -webkit-linear-gradient(top, rgb(200, 41, 79), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.atl{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/atl.png), -webkit-linear-gradient(top, rgb(31, 28, 19), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.bal{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/bal.png), -webkit-linear-gradient(top, rgb(6, 6, 6), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.buf {
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/buf.png), -webkit-linear-gradient(top, rgb(250, 106, 107), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.car {
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+       background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/car.png), -webkit-linear-gradient(top, rgb(92, 208, 248), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.cin{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/cin.png), -webkit-linear-gradient(top, rgb(240, 78, 35), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.chi{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/chi.png), -webkit-linear-gradient(top, rgb(27, 28, 26), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.cle{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/cle.png), -webkit-linear-gradient(top, rgb(252, 58, 4), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.dal{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/dal.png), -webkit-linear-gradient(top, rgb(16, 48, 80), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.den{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/den.png), -webkit-linear-gradient(top, rgb(9, 43, 78), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.det{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+        background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/det.png), -webkit-linear-gradient(top, rgb(72, 182, 253), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.gb {
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/gb.png), -webkit-linear-gradient(top, rgb(42, 67, 58), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.hou {
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+        background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/hou.png), -webkit-linear-gradient(top, rgb(15, 29, 50), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+
+.avatar.ind {
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/ind.png), -webkit-linear-gradient(top, rgb(239, 242, 245), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.jac{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+        background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/jac.png), -webkit-linear-gradient(top, rgb(15, 84, 102), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.kc{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+            background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/kc.png), -webkit-linear-gradient(top, rgb(165, 35, 48), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.mia{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/mia.png), -webkit-linear-gradient(top, rgb(63, 142, 159), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.min{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+        background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/min.png), -webkit-linear-gradient(top, rgb(88, 46, 130), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.ne{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/ne.png), -webkit-linear-gradient(top, rgb(23, 37, 60), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.no{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/no.png), -webkit-linear-gradient(top, rgb(242, 217, 164), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.nyg{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/nyg.png), -webkit-linear-gradient(top, rgb(42, 91, 138), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.nyj {
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/nyj.png), -webkit-linear-gradient(top, rgb(42, 67, 58), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.oak{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/oak.png), -webkit-linear-gradient(top, rgb(30, 32, 26), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.pit{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/pit.png), -webkit-linear-gradient(top, rgb(9,9,9), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.phi{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/phi.png), -webkit-linear-gradient(top, rgb(30, 93, 88), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.lac{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/sd.png), -webkit-linear-gradient(top, rgb(41, 147, 203), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.sf{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/sf.png), -webkit-linear-gradient(top, rgb(32, 40, 55), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.sea{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+       background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/sea.png), -webkit-linear-gradient(top, rgb(32, 40, 55), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.la{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/stl.png), -webkit-linear-gradient(top, rgb(8, 34, 58), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.tb{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+       background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/tb.png), -webkit-linear-gradient(top, rgb(66, 60, 39), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.ten{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/ten.png), -webkit-linear-gradient(top, rgb(103, 163, 202), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+.avatar.was{
+    position: relative;
+    width: 213px;
+    border-radius: 14px;
+    height: 160px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/gradients/left/was.png), -webkit-linear-gradient(top, rgb(80, 28, 13), rgba(0, 0, 0, 0)), url(http://toploader.net/madden/daddyleague/images/stadium-flare.png);
+    background-color: transparent;
+    background-size: auto, 76%, auto, cover;
+    background-position: 0% 0%, -10% -24px, 0% 0%, 0% -15px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+h8{
+    color: #4870a2;
+    font-family: NFLEndzoneTechBold, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+	position: relative;
+	top: -50px;
+    text-shadow: 0px 1px black;
+}
+.content section {
+    padding: 10px;
+    margin-bottom: 60px;
+    height: 1032px;
+    border-left: #81BC3C 1px solid;
+    position: relative;
+    width: 675px;
+}
+#tabs{
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#tabs li{
+  float: left;
+  margin: 0 .5em 0 0;
+}
+
+#tabs a{
+  position: relative;
+  background: #ddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+  background-image: -webkit-linear-gradient(top, #fff, #ddd);
+  background-image: -moz-linear-gradient(top, #fff, #ddd);
+  background-image: -ms-linear-gradient(top, #fff, #ddd);
+  background-image: -o-linear-gradient(top, #fff, #ddd);
+  background-image: linear-gradient(to bottom, #fff, #ddd);  
+  padding:0.1em 1.5em;
+  float: left;
+  text-decoration: none;
+  color: #444;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;
+  -moz-box-shadow: 0 2px 2px rgba(0,0,0,.4);
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.4);
+  box-shadow: 0 2px 2px rgba(0,0,0,.4);
+}
+
+#tabs a:hover,
+#tabs a:hover::after,
+#tabs a:focus,
+#tabs a:focus::after{
+  background: #fff;
+}
+
+#tabs a:focus{
+  outline: 0;
+}
+
+#tabs a::after{
+  content:'';
+  position:absolute;
+  z-index: 1;
+  top: 0;
+  right: -.5em;  
+  bottom: 0;
+  width: 1em;
+  background: #ddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+  background-image: -webkit-linear-gradient(top, #fff, #ddd);
+  background-image: -moz-linear-gradient(top, #fff, #ddd);
+  background-image: -ms-linear-gradient(top, #fff, #ddd);
+  background-image: -o-linear-gradient(top, #fff, #ddd);
+  background-image: linear-gradient(to bottom, #fff, #ddd);  
+  -moz-box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  -webkit-transform: skew(10deg);
+  -moz-transform: skew(10deg);
+  -ms-transform: skew(10deg);
+  -o-transform: skew(10deg);
+  transform: skew(10deg);
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;  
+}
+
+#tabs #current a{
+  background: #fff;
+  z-index: 3;
+}
+
+#tabs #current a::after{
+  background: #fff;
+  z-index: 3;
+}
+
+/* ------------------------------------------------- */
+
+
+#content h2, #content h3, #content p
+{
+    margin: 0 0 15px 0;
+}
+
+/* ------------------------------------------------- */
+
+#about
+{
+    color: #999;
+}
+
+#about a
+{
+    color: #eee;
+}
+/***gow***/
+span.gow.team.top {     position: absolute;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 85px;
+    font-weight: bolder;
+    width: 254px;
+    right: -200px;
+}
+.gameoftheweek .cfm-table tr td .score {    font-size: 32px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 69px;
+    border-radius: 10px;
+    top: 119px;
+    text-align: center;
+    position: absolute;
+    left: 230px;
+}
+.gameoftheweek .cfm-table tr td .score {
+    color: white;
+   	text-shadow: 0px 3px 2px black;
+}
+
+.gameoftheweek .record {    line-height: 66px;
+    color: white;
+   	text-shadow: 0px 3px 2px black;
+    position: relative;
+    width: 300px;
+    right: -190px;
+    top: -28px;
+    font-size: small;
+    text-align: left;
+}
+
+span.title {
+position: relative;
+    top: 25px;
+    left: 159px;
+    color: #5E8CE4;
+}
+.gameoftheweek {
+width: 100%;
+line-height: 47px;
+border-bottom: 0px solid #273038;
+background: rgba(255, 255, 255, 0) url('');
+}
+.cfm-table tbody tr th > div.align-right, .cfm-table tbody tr td > div.align-right {
+text-align: right;
+background-repeat: no-repeat;
+}
+.clickable.ng-scope {      background-repeat: no-repeat;
+    background-position: center;
+    width: 242px;
+    background-size: 45%;
+    position: relative;
+    left: -298px;
+    top: 40px;
+}
+.align-right.clickable.ng-scope {
+  position: relative;
+    top: -65px;
+    left: -56px;
+    background-size: 45%;
+}
+.team {     position: absolute;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: left;
+    top: 56px;
+    width: 254px;    text-shadow: 0px 2px 1px black;
+    right: -202px;
+    color: rgb(156, 156, 156);
+    z-index: 2;
+}
+span.big-leaguename {    font-size: 27px;
+    font-style: italic;
+    width: 33%;
+    font-family: NFLEndzoneTechBold;
+    left: 40px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 20;
+    text-decoration: underline;
+    top: 247px;
+    font-weight: bolder;
+    letter-spacing: -.05em;
+}
+/***schedule***/
+span.users {
+	top: 67px;
+	z-index: 1;
+	left: 188px;
+	width: 244px;
+	height: 71px;
+	display: block;
+	background-image: url('http://toploader.net/madden/daddyleague/images/users.png');
+	background-repeat: no-repeat, no-repeat;
+	background-size: 6%;
+	background-position: 2px 47px;
+	FONT-SIZE: 11PX;
+	text-transform: uppercase;
+	text-align: left;
+	position: absolute;
+	padding-top: 31px;
+	padding-left: 19px;
+	color: #ffff00;
+	text-shadow: 1px 3px 3px black;
+}
+span.cpu { top: 67px;
+    z-index: 1;
+    left: 188px;
+    width: 244px;
+    height: 71px;
+    display: block;
+    background-image: url('http://toploader.net/madden/daddyleague/images/cpu.png');
+   background-repeat: no-repeat, no-repeat;
+    background-size: 6%;
+    background-position: 2px 47px;
+    FONT-SIZE: 11PX;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 19px;
+    color: red;
+    text-shadow: 1px 3px 3px black;
+}
+
+span.ne {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/patriots.png), -webkit-linear-gradient(top, rgb(23, 37, 57), rgba(23, 37, 57, 0.49)), url(http://toploader.net/madden/daddyleague/images/gowimages/patriots.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px -115px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.mia {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/dolphins.png), -webkit-linear-gradient(top, rgb(18, 117, 126), rgba(5, 123, 135, 0.48)), url(http://toploader.net/madden/daddyleague/images/gowimages/dolphins.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px -115px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.buf {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/bills.png), -webkit-linear-gradient(top, rgb(50, 86, 126), rgba(255, 255, 255, 0.78)), url(http://toploader.net/madden/daddyleague/images/gowimages/bills.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px -98px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.nyj {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/jets.png), -webkit-linear-gradient(top, rgb(20, 38, 33), rgba(255, 255, 255, 0.78)), url(http://toploader.net/madden/daddyleague/images/gowimages/jets.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px -59px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.pit {    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/steelers.png), -webkit-linear-gradient(top, rgb(226, 175, 36), rgba(0, 0, 0, 0.48)), url(http://toploader.net/madden/daddyleague/images/gowimages/steelers.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px -67px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.cin {    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/bengals.png), -webkit-linear-gradient(top, rgb(5, 5, 5), rgba(172, 49, 35, 0.67)), url(http://toploader.net/madden/daddyleague/images/gowimages/bengals.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px 3px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.bal {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/ravens.png), -webkit-linear-gradient(top, rgb(0, 0, 0), rgba(74, 77, 154, 0.72)), url(http://toploader.net/madden/daddyleague/images/gowimages/ravens.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px 10px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.cle {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/browns.png), -webkit-linear-gradient(top, rgb(90, 78, 65), rgba(242, 80, 3, 0.72)), url(http://toploader.net/madden/daddyleague/images/gowimages/browns.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 100%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 100px -22px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.ten {     position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/titans.png), -webkit-linear-gradient(top, rgb(52, 118, 167), rgba(255, 255, 255, 0.5)), url(http://toploader.net/madden/daddyleague/images/gowimages/titans.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px -67px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.hou {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/texans.png), -webkit-linear-gradient(top, rgb(12, 19, 39), rgba(12, 19, 39, 0.48)), url(http://toploader.net/madden/daddyleague/images/gowimages/texans.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 87px -4px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.jac {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/jaguars.png), -webkit-linear-gradient(top, rgb(148, 120, 50), rgba(22, 80, 93, 0.7)), url(http://toploader.net/madden/daddyleague/images/gowimages/jaguars.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 100%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 100px -83px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.ind {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/colts.png), -webkit-linear-gradient(top, rgb(39, 44, 81), rgba(255, 255, 255, 0.49)), url(http://toploader.net/madden/daddyleague/images/gowimages/colts.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 100%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 100px -5px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.den {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/broncos.png), -webkit-linear-gradient(top, rgb(39, 44, 81), rgba(229, 116, 60, 0.57)), url(http://toploader.net/madden/daddyleague/images/gowimages/broncos.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 100%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 100px -47px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.lac {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/chargers.png), -webkit-linear-gradient(top, rgb(39, 44, 81), rgba(18, 102, 156, 0.54)), url(http://toploader.net/madden/daddyleague/images/gowimages/chargers.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 100%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 100px -4px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.kc {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/chiefs.png), -webkit-linear-gradient(top, rgb(173, 56, 66), rgba(173, 56, 66, 0.52)), url(http://toploader.net/madden/daddyleague/images/gowimages/chiefs.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 100%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 100px -4px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.oak {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/raiders.png), -webkit-linear-gradient(top, rgb(189, 189, 190), rgba(0, 0, 0, 0.52)), url(http://toploader.net/madden/daddyleague/images/gowimages/raiders.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 100%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 100px -20px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.sf {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/49ers.png), -webkit-linear-gradient(top, rgb(175, 31, 56), rgba(134, 114, 78, 0.76)), url(http://toploader.net/madden/daddyleague/images/gowimages/49ers.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px -84px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.sea {position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/seahawks.png), -webkit-linear-gradient(top, rgb(16, 19, 49), rgba(75, 255, 0, 0.48)), url(http://toploader.net/madden/daddyleague/images/gowimages/seahawks.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px -84px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.ari {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/cardinals.png), -webkit-linear-gradient(top, rgb(112, 13, 39), rgba(112, 13, 39, 0.64)), url(http://toploader.net/madden/daddyleague/images/gowimages/cardinals.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 100%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 100px -26px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.la {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/rams.png), -webkit-linear-gradient(top, rgb(169, 143, 90), rgba(8, 31, 57, 0.69)), url(http://toploader.net/madden/daddyleague/images/gowimages/rams.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 100%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 100px -26px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.car {     position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/panthers.png), -webkit-linear-gradient(top, rgb(27, 117, 161), rgba(0, 0, 0, 0.48)), url(http://toploader.net/madden/daddyleague/images/gowimages/panthers.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px -8px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.atl {     position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/falcons.png), -webkit-linear-gradient(top, rgb(0, 0, 0), rgba(255, 0, 0, 0.48)), url(http://toploader.net/madden/daddyleague/images/gowimages/falcons.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 106%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 1px -60px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.tb {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/buccaneers.png), -webkit-linear-gradient(top, rgb(66, 61, 53), rgba(185, 32, 38, 0.71)), url(http://toploader.net/madden/daddyleague/images/gowimages/buccs.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 100%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 100px -43px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.no {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/saints.png), -webkit-linear-gradient(top, rgb(0, 0, 0), rgba(159, 140, 95, 0.75)), url(http://toploader.net/madden/daddyleague/images/gowimages/saints.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 71%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 147px -30px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.dal {     position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/cowboys.png), -webkit-linear-gradient(top, rgb(15, 35, 71), rgba(165, 165, 165, 0.67)), url(http://toploader.net/madden/daddyleague/images/gowimages/cowboys.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 85%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 76px -16px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.phi {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/eagles.png), -webkit-linear-gradient(top, rgb(0, 0, 0), rgba(47, 93, 99, 0.78)), url(http://toploader.net/madden/daddyleague/images/gowimages/eagles.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 85%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 76px -27px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.nyg {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/giants.png), -webkit-linear-gradient(top, rgb(5, 82, 162), rgba(166, 166, 166, 0.78)), url(http://toploader.net/madden/daddyleague/images/gowimages/giants.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 85%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 76px -45px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.was {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/redskins.png), -webkit-linear-gradient(top, rgb(88, 12, 37), rgba(194, 152, 51, 0.73)), url(http://toploader.net/madden/daddyleague/images/gowimages/redskins.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 85%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 76px -85px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.gb {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/packers.png), -webkit-linear-gradient(top, rgb(41, 62, 55), rgba(194, 152, 51, 0.73)), url(http://toploader.net/madden/daddyleague/images/gowimages/packers.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 85%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 76px -104px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.det {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/lions.png), -webkit-linear-gradient(top, rgb(197, 197, 197), rgba(0, 92, 149, 0.79)), url(http://toploader.net/madden/daddyleague/images/gowimages/lions.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 85%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 76px -52px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.chi {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/bears.png), -webkit-linear-gradient(top, rgb(44, 51, 68), rgba(18, 27, 49, 0.72)), url(http://toploader.net/madden/daddyleague/images/gowimages/bears.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 85%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 76px -90px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+span.min {
+    position: absolute;
+    text-shadow: 0px 3px 2px black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    top: 69px;
+    font-weight: bolder;
+    width: 439px;
+    padding-left: 128px;
+    padding-top: 6px;
+    height: 76px;
+    right: -258px;
+    background-image: url(http://toploader.net/madden/daddyleague/images/carbon-fine.png), url(http://toploader.net/images/nfl/nflhelmets/left/vikings.png), -webkit-linear-gradient(top, rgb(63, 49, 106), rgba(71, 52, 125, 0.67)), url(http://toploader.net/madden/daddyleague/images/gowimages/vikings.jpg);
+    background-color: transparent;
+    background-size: auto, 40%, auto, 85%;
+    background-position: 0% 0%, 0% 0px, 0% 0%, 76px -29px;
+    background-repeat: repeat, no-repeat, repeat, no-repeat;
+}
+
+/*tabs*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+ input[type="radio"] {
+			display: none;
+		}
+  
+#tabs-content{
+		  	position: relative;
+		  	width: 99%;
+		  	z-index: 5;
+		  }
+		  
+#tabs-content div {
+		  	opacity: 0;
+		  	position: absolute;
+		  	z-index: -100;
+		  	top:22px;
+		  	transition: all 0.3s ease-in;
+		  			
+		  	}
+
+		  
+.css-tabs input:checked + label {
+	background: #727272;  
+	color: #fff; 
+	position: relative;
+	z-index: 20;
+
+}
+.css-tabs {
+    overflow-x: hidden;
+    height: 400px;
+}
+
+.css-tabs input#tab-09:checked ~ #tabs-content div.tabs-content-09,
+.css-tabs input#tab-08:checked ~ #tabs-content div.tabs-content-08,
+.css-tabs input#tab-07:checked ~ #tabs-content div.tabs-content-07,
+.css-tabs input#tab-06:checked ~ #tabs-content div.tabs-content-06,
+.css-tabs input#tab-05:checked ~ #tabs-content div.tabs-content-05,
+.css-tabs input#tab-04:checked ~ #tabs-content div.tabs-content-04,
+.css-tabs input#tab-03:checked ~ #tabs-content div.tabs-content-03,
+.css-tabs input#tab-02:checked ~ #tabs-content div.tabs-content-02,
+.css-tabs input#tab-01:checked ~ #tabs-content div.tabs-content-01 {
+    opacity: 1;
+    z-index: 100;
+}
+ label {
+		    display: block;
+		    float: left;
+		    width: 11%;
+		    font-size: 12px; 
+			color: #727272;
+		    text-align: center;
+		    cursor: pointer;
+		    position: relative;
+		    transition: all 0.3s ease- in;
+		    &:hover {
+		      background: darken(#eee, 10);
+		      transform: scale(1.05);
+		      z-index:10;
+		    }
